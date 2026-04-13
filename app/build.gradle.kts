@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -53,4 +54,9 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:5.0.5")
     //Swipe to refresh
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
+    implementation("com.google.android.material:material:1.12.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
+
+    implementation("com.google.firebase:firebase-firestore")
 }

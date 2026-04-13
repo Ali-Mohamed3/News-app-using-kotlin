@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">News App</string>
+    <string-array name="regions">
+        <item>Egypt</item>
+        <item>Germany</item>
+        <item>United Kingdom</item>
+        <item>Japan</item>
+    </string-array>
 </resources>
